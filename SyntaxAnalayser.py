@@ -34,6 +34,14 @@ class SyntaxAnalayser:
         while INDEX < len(self.prog) and self.is_seperateur() :
             INDEX+=1
         def detect_comment(self):
+            global INDEX 
+            counter = 0 
+            if self.prog[INDEX] == '{':
+                counter += 1
+                
+
+                
+            
             
 
         
