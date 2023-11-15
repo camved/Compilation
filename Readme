@@ -1,0 +1,9 @@
+Program carre;
+    VAR mb;
+    DEBUT
+        ECRIRE('entrez un nombre entier:');
+        LIRE(nb);
+        nb := nb*nb
+        ECRIRE();
+        ECRIRE('Le carre du nombre est : nb')
+    FIN
