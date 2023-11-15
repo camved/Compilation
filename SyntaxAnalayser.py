@@ -38,7 +38,12 @@ class SyntaxAnalayser:
             counter = 0 
             if self.prog[INDEX] == '{':
                 counter += 1
-                
+                while counter != 0:        
+                    if self.prog[INDEX] == '}':
+                        counter -= 1
+                    INDEX += 1
+                    
+            
 
                 
             
